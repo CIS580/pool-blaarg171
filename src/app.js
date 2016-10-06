@@ -112,6 +112,9 @@ function update(elapsedTime) {
   });
 
   // process collisions
+
+  //physics: momentum, velocity, future velocity
+
   var i, j, collisionPairs = [];
   for(i = 0; i < 15; i++) {
     for(j = i; j < 15; j++){
